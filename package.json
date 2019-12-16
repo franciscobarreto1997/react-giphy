@@ -34,8 +34,6 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "lint": "eslint './src/**/*.js*'",
-    "deploy": "webpack -p && gh-pages -d dist",
-    "build": "webpack -p",
-    "heroku-postbuild": "npm run build"
+    "deploy": "webpack -p && gh-pages -d dist"
   }
 }
