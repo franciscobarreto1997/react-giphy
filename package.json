@@ -27,14 +27,12 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "express": "^4.17.1",
     "giphy-api": "^2.0.1",
     "react": "16.2",
     "react-dom": "16.2"
   },
   "scripts": {
-    "dev-server": "webpack-dev-server --mode development",
-    "start": "node server.js",
+    "start": "webpack-dev-server --mode development",
     "lint": "eslint './src/**/*.js*'",
     "deploy": "webpack -p && gh-pages -d dist",
     "build": "webpack -p",
